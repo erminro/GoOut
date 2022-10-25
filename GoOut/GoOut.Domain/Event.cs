@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GoOut.Domain
 {
-    class Event
+    public class Event
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
@@ -16,5 +16,7 @@ namespace GoOut.Domain
         public string Description { get; set; }
         public string Location { get; set; }
         public string EntryFee { get; set; }
+        public User LikedUserID { get; set; }
+        public User CreatedUserID { get; set; }
     }
 }
