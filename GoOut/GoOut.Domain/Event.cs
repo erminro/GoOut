@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace GoOut.Domain
 {
     public class Event
@@ -16,7 +16,11 @@ namespace GoOut.Domain
         public string Description { get; set; }
         public string Location { get; set; }
         public string EntryFee { get; set; }
-        public User LikedUserID { get; set; }
-        public User CreatedUserID { get; set; }
+        [ForeignKey("LikedUserID")]
+        [InverseProperty("LikedEvents")]
+        public User LikedUser { get; set; }
+        [ForeignKey("CreatedUserID")]
+        [InverseProperty("CreatedEvents")]
+        public User CreatedUser { get; set; }
     }
 }

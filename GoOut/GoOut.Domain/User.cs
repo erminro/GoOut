@@ -14,6 +14,9 @@ namespace GoOut.Domain
         public int Age { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        
+        public ICollection<Event> LikedEvents { get; set; }
+
+        public ICollection<Event> CreatedEvents { get; set; }
+
     }
 }
