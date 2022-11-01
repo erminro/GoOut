@@ -635,6 +635,16 @@
           }
         }
       },
+      "GoOut.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GoOut.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoOut.Core.dll": {}
+        }
+      },
       "GoOut.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1870,6 +1880,11 @@
         "version.txt"
       ]
     },
+    "GoOut.Core/1.0.0": {
+      "type": "project",
+      "path": "../GoOut.Core/GoOut.Core.csproj",
+      "msbuildProject": "../GoOut.Core/GoOut.Core.csproj"
+    },
     "GoOut.Domain/1.0.0": {
       "type": "project",
       "path": "../GoOut.Domain/GoOut.Domain.csproj",
@@ -1878,6 +1893,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GoOut.Core >= 1.0.0",
       "GoOut.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
@@ -1919,6 +1935,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\GoOut\\GoOut\\GoOut.Core\\GoOut.Core.csproj": {
+              "projectPath": "D:\\GoOut\\GoOut\\GoOut.Core\\GoOut.Core.csproj"
+            },
             "D:\\GoOut\\GoOut\\GoOut.Domain\\GoOut.Domain.csproj": {
               "projectPath": "D:\\GoOut\\GoOut\\GoOut.Domain\\GoOut.Domain.csproj"
             }

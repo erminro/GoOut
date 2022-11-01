@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GoOut.Core\GoOut.Core.csproj" />
     <ProjectReference Include="..\GoOut.Domain\GoOut.Domain.csproj" />
   </ItemGroup>
 
