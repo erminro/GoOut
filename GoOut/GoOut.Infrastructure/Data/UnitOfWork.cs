@@ -13,6 +13,7 @@ namespace GoOut.Infrastructure.Data
     {
         private DataContext _appDbContext;
         private IUserRepository _userRepository;
+        private IEventRepository _eventRepository;
         public IUserRepository UserRepository
         {
             get
@@ -26,6 +27,22 @@ namespace GoOut.Infrastructure.Data
             set
             {
                 _userRepository = value;
+            }
+
+        }
+        public IEventRepository EventRepository
+        {
+            get
+            {
+                if (_eventRepository == null)
+                {
+                    _eventRepository = new EventRepository(_appDbContext);
+                }
+                return _eventRepository;
+            }
+            set
+            {
+                _eventRepository = value;
             }
 
         }
