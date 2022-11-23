@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GoOut.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace GoOut.Core.Interfaces.Repositories
 {
     public interface IEventRepository
     {
+        public void Add(Event eve);
+        public void Delete(Event eve);
     }
 }

@@ -1,5 +1,7 @@
 ﻿using GoOut.Core.Interfaces.Repositories;
+using GoOut.Domain;
 using GoOut.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +17,14 @@ namespace GoOut.Infrastructure.Repositories
         {
             _dataContext = dataContext;
         }
+        public void Add(User user)
+        {
+            _dataContext.Users.Add(user);
+        }
+        public void Delete(User user)
+        {
+            _dataContext.Users.Remove(user);
+        }
+
     }
 }
