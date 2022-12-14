@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoOut.Domain.DTO
+namespace GoOut.Core.DTO
 {
     public class NewEventDTO
     {

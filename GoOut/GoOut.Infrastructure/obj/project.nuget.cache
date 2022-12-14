@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ICHK8N9/cqQ9PIZSc5v0r2IoCAGsoHVR/kiFZ1B+fLU78xqnZb+XU4flOFQI4IVUxFkobOF48eGG+oJ70tloMA==",
+  "dgSpecHash": "XcR6NUIuEA5TkI28YDhi3g+khc2VGdybkZQNPVuoZMh0MSzdGtBiy2irdVh0FwNLeilp9UHPrmiUu1maynkV1A==",
   "success": true,
   "projectFilePath": "D:\\GoOut\\GoOut\\GoOut.Infrastructure\\GoOut.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\roman\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\roman\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\roman\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
