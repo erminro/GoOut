@@ -11,12 +11,10 @@ using System.Threading.Tasks;
 
 namespace GoOut.Core.Commands.Event
 {
-    public class CreateEventCommand
-    {
-        public class CreateProductCommand : IRequest
-        {
+    public class CreateEventCommand:IRequest
+    {     
             public NewEventDTO NewEventDto { get; set; }
 
-        }
+
     }
 }
